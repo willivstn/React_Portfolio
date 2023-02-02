@@ -93,7 +93,25 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        
+        <div className='info-map'>
+            Willie van Staden,
+            <br/>
+            South Africa,
+            <br/>
+            FreeState, Bloemfontein
+            <br/>
+            9321
+            <br/>
+            <span>willie70700@gmail.com</span>
+        </div>
+        <div className='map-wrap'>
+            <MapContainer center={[-29.120085, 26.170338]} zoom={13}>
+                <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'></TileLayer>
+                <Marker position={[-29.120085, 26.170338]}>
+                    <Popup>Willie lives here</Popup>
+                </Marker>
+            </MapContainer>
+        </div>
         
       </div>
       <Loader type="pacman" />

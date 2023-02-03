@@ -9,7 +9,7 @@ import Loader from 'react-loaders';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [ 'i', 'l', 'l', 'i', 'e']
-    const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r',]
+    const jobArray = ['S', 'o', 'f', 't ', 'w', 'a', 'r', 'e', '', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
     
     useEffect(
         () => {
@@ -56,7 +56,16 @@ const Home = () => {
                  idx={22}
                 />
                 </h1>
-                <h2>Frontend Developer / JavaSript / Android App Developer</h2>
+                <h2>Web Development: HTML & CSS/ .NET / JavaScript / React / Git
+                  <br/>
+                  <br/>
+
+                  Android Development: Java / Kotlin / Gradle 
+                  <br/>
+                  <br/>
+
+                  Database Development: SQL / Firebase / Azure 
+                </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo/>

@@ -34,8 +34,13 @@ const About = () => {
 
     
     return (
+        
         <>
+        
         <div className='container about-page'>
+        
+        
+
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters
@@ -53,18 +58,19 @@ const About = () => {
                     settings.
                 </p>
                 <p>
-                    I'm quietly confident, naturally curious, and perpetually working on improving my chops
-                    one design problem at a time. 
+                    I'm quietly confident, naturally curious, and perpetually working on improving my skills
                 </p>
                 <p>
-                    If I need to define myself in one sentence that would be a that I am a very dedicated, 
-                    passionate and curious person that is always ready to explore and learn new technologies.
+                    One of my strengths is that I am passionate to learn new things and to create create opportunities to implement those skills
                 </p>
-
+                
 
             </div>
 
+            
+
             <div className='stage-cube-cont'>
+                
                 <div className='cubespinner'>
                     
                     <div className='face1'>
@@ -98,6 +104,8 @@ const About = () => {
                 </div>
 
             </div>
+            
+
             
         </div>
         <Loader type='pacman'/>

@@ -1,14 +1,16 @@
 .logo-container {
     z-index: 0;
-    width: 400px;
+    width: 700px;
     height: 609px;
     opacity: 0;
     position: absolute;
     top: 0;
-    right: 15%;
-    bottom: 0;
+    right: 0%;
+    bottom: 48%;
     left: auto;
     margin: auto;
+
+    
   
     svg {
       width: 100%;
@@ -26,8 +28,24 @@
       margin: auto;
       width: 100%;
       opacity: 0;
-      transform: rotateZ(30deg) !important;
+      transition: transform .2s;
       z-index: 1;
+
+      &:hover {
+          padding: 50px;
+          transition: transform .3s; /* Animation */
+          width: 600px;
+          height: 600px;
+          margin-bottom: 0 auto;
+          -ms-transform: scale(1.5); /* IE 9 */
+          -webkit-transform: scale(1.5); /* Safari 3-8 */
+          transform: scale(1.5); 
+
+        
+
+        
+
+      }
     }
   }
   

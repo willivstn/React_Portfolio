@@ -1,3 +1,7 @@
+
+
+
+
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -7,9 +11,12 @@
     position: absolute;
     right: 0;
     overflow: hidden;
+
   }
+
   
   .cubespinner {
+    
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -30,7 +37,10 @@
       justify-content: center;
       align-items: center;
       box-shadow: 0 0 20px 0px lightyellow;
+
+      
     }
+    
   
     .face1 {
       transform: translateZ(100px);
